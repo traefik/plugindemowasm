@@ -17,8 +17,6 @@ linters-settings:
     statements: 50
   misspell:
     locale: US
-    ignore-words:
-      - internetbs
   depguard:
     rules:
       main:

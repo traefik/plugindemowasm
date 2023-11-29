@@ -33,3 +33,4 @@ archives:
     format: zip
     files:
       - LICENSE
+      - .traefik.yml

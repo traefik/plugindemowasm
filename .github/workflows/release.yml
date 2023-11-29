@@ -28,9 +28,6 @@ jobs:
       - name: Install tinygo
         uses: acifani/setup-tinygo@v2
 
-      - name: Build
-        run: make
-
       - name: Run GoReleaser
         uses: goreleaser/goreleaser-action@v4
         with:

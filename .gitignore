@@ -1,1 +1,6 @@
-plugin.wasm
+.gitcookies
+.idea
+.vscode/
+dist/
+builds/
+*.wasm

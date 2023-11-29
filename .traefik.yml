@@ -1,0 +1,14 @@
+displayName: Demo Plugin WASM
+type: middleware
+iconPath: .assets/icon.png
+
+wasmPath: header.wasm
+
+summary: '[Demo WASM] Add Request Header'
+
+runtime: wasm
+
+testData:
+  Headers:
+    X-Demo: test
+    X-URL: '{{URL}}'

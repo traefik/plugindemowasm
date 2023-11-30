@@ -29,7 +29,7 @@ changelog:
 
 archives:
   - id: plugindemowasm
-    name_template: '{{ .ProjectName }}_v{{ .Version }}_{{ .Os }}_{{ .Arch }}{{ if .Arm }}v{{ .Arm }}{{ end }}{{ if .Mips }}_{{ .Mips }}{{ end }}'
+    name_template: '{{ .ProjectName }}_v{{ .Version }}'
     format: zip
     files:
       - LICENSE

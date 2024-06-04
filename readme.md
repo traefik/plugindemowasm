@@ -33,7 +33,7 @@ experimental:
   plugins:
     example:
       moduleName: github.com/traefik/plugindemowasm
-      version: v0.2.1
+      version: v0.0.1
 ```
 
 Here is an example of a file provider dynamic configuration (given here in YAML), where the interesting part is the `http.middlewares` section:

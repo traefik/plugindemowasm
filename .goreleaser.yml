@@ -4,11 +4,13 @@ builds:
   - binary: plugin.wasm
     gobinary: tinygo
     no_unique_dist_dir: true
+    no_main_check: true
     main: .
     flags:
       - -scheduler=none
       - --no-debug
       - -target=wasi
+      - -buildmode=c-shared
     ldflags:
       - ''
     goos:

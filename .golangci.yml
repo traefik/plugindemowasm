@@ -143,6 +143,7 @@ linters:
     - errchkjson
     - nonamedreturns
     - gosmopolitan  # not relevant
+    - gochecknoinits
 
 issues:
   exclude-use-default: false

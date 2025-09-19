@@ -143,7 +143,7 @@ type Config struct {
 	Headers map[string]string `json:"headers,omitempty"`
 }
 
-func main() {
+func init() {
 	var config Config
 	err := json.Unmarshal(handler.Host.GetConfig(), &config)
 	if err != nil {

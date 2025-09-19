@@ -13,7 +13,7 @@ import (
 	"github.com/http-wasm/http-wasm-guest-tinygo/handler/api"
 )
 
-func main() {
+func init() {
 	var config Config
 	err := json.Unmarshal(handler.Host.GetConfig(), &config)
 	if err != nil {

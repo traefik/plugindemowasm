@@ -176,7 +176,7 @@ func (d Demo) handleRequest(req api.Request, resp api.Response) (next bool, reqC
 
 Traefik plugins are stored and hosted as public GitHub repositories.
 
-Every 30 minutes, the Plugins Catalog online service polls Github to find plugins and add them to its catalog.
+Once a day, the Plugins Catalog online service polls Github to find plugins and add them to its catalog.
 
 ### Prerequisites
 
